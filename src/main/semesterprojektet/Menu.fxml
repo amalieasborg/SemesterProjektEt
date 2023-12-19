@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="src.main.semesterprojektet.MenuController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Button fx:id="OpretBruger" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToOpretBruger" prefHeight="26.0" prefWidth="113.0" text="Opret bruger" translateX="-100.0" translateY="-25.0" />
+        <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToOpretØnskeseddel" text="Opret ønskeseddel" translateX="20.0" translateY="-25.0" />
+        <Button fx:id="seØnskeseddel" layoutX="255.0" layoutY="186.0" mnemonicParsing="false" onAction="#switchToSeØnskeseddel" text=" Se ønskesedler" translateX="-10.0" translateY="50.0" />
+    </children>
+</AnchorPane>

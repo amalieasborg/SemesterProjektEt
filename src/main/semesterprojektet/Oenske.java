@@ -1,5 +1,5 @@
-package com.example.semesterprojektet;
-import java.util.ArrayList;
+package src.main.semesterprojektet;
+
 public class Oenske {
     private int Id;
     private int brugerId;

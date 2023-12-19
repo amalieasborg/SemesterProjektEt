@@ -1,4 +1,4 @@
-package com.example.semesterprojektet;
+package src.main.semesterprojektet;
 import java.sql.*;
 import java.util.ArrayList;
 public class DbSql {
@@ -10,7 +10,7 @@ public class DbSql {
         connection = null;
         stmt = null;
         try {
-            String url = "jdbc:sqlite:C:/Users/nd070/OneDrive/Dokumenter/1.Semesterprojekt-samsung.db/";
+            String url = "jdbc:sqlite:C:/Users/Bruger/Documents/Zealand/SemesterProjektEt.db/";
             connection = DriverManager.getConnection(url);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
@@ -146,10 +146,10 @@ public class DbSql {
         }
     }
 
-    public ArrayList<Oenske> specifikOenskeliste(int brugernavn, int oenskelistenr) {
+    public ArrayList<Oenske> specifikOenskeliste(int brugerId, int oenskelistenr) {
         ArrayList<Oenske> oenskeliste = new ArrayList<>();
         try {
-            String sql = "select * from Oenske where brugernavn=" + (brugernavn);
+            String sql = "select * from Oenske where brugerId=" + (brugerId);
             sql += " and oenskelistenr =" + String.valueOf(oenskelistenr);
             Statement stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery(sql);

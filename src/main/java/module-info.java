@@ -5,6 +5,6 @@ module com.example.semesterprojektet {
     requires com.dlsc.formsfx;
     requires java.sql;
 
-    opens com.example.semesterprojektet to javafx.fxml;
-    exports com.example.semesterprojektet;
+    opens src.main.semesterprojektet to javafx.fxml;
+    exports src.main.semesterprojektet;
 }

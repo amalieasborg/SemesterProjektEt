@@ -1,4 +1,4 @@
-package com.example.semesterprojektet;
+package src.main.semesterprojektet;
 
 public class Oenskeseddel {
     private int Id;
@@ -24,5 +24,5 @@ public class Oenskeseddel {
 
     public String getNavn() {        return Navn;    }
 
-    public void setNavn(String navn) {        Navn = navn;    }
+    public void setNavn(String navn) {        Navn = navn;      }
 }

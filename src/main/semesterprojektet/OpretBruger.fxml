@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="src.main.semesterprojektet.OpretBrugerController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Button fx:id="Tilbage" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToMenu" text="Tilbage" translateX="-250.0" translateY="-150.0">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets></Button>
+        <Label layoutX="234.0" layoutY="63.0" text="Indtast oplysninger">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="Brugernavn" layoutX="219.0" layoutY="120.0" />
+        <TextField fx:id="Email" layoutX="219.0" layoutY="192.0" />
+        <Label layoutX="133.0" layoutY="124.0" text="Brugernavn" />
+        <Label layoutX="148.0" layoutY="159.0" text="Kodeord" />
+        <Label layoutX="164.0" layoutY="196.0" text="Email" />
+        <PasswordField fx:id="passwordHidden" layoutX="219.0" layoutY="155.0" />
+        <CheckBox fx:id="checkBox" layoutX="383.0" layoutY="159.0" mnemonicParsing="false" onAction="#visKodeord" text="Vis kodeord" />
+        <Button fx:id="tilfoejBruger" layoutX="253.0" layoutY="238.0" mnemonicParsing="false" onAction="#tilfoejBruger" text="Tilføj Bruger" />
+        <TextField fx:id="passwordText" layoutX="219.0" layoutY="155.0" visible="false" />
+    </children>
+
+</AnchorPane>

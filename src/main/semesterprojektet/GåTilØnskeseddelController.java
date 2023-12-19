@@ -1,4 +1,4 @@
-package com.example.semesterprojektet;
+package src.main.semesterprojektet;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

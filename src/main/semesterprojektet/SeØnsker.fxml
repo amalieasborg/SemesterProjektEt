@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="src.main.semesterprojektet.seØnskerController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#switchToMenu" text="Tilbage" translateX="-250.0" translateY="-150.0" />
+        <ListView layoutX="186.0" layoutY="63.0" prefHeight="301.0" prefWidth="400.0" />
+        <ScrollBar layoutX="579.0" layoutY="63.0" orientation="VERTICAL" prefHeight="301.0" prefWidth="14.0" />
+        <Button layoutX="78.0" layoutY="155.0" mnemonicParsing="false" text="Tilføj ønske" />
+        <Button layoutX="78.0" layoutY="237.0" mnemonicParsing="false" text="Fjern ønske" />
+    </children>
+
+</AnchorPane>

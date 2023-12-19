@@ -1,6 +1,6 @@
-package com.example.semesterprojektet;
+package src.main.semesterprojektet;
 
-public class Bruger {
+public class    Bruger {
     private String brugernavn;
     private String kodeord;
     private String email;
